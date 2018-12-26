@@ -1,0 +1,70 @@
+/*site.css*/
+
+body{
+	
+	margin: 0 auto;
+}
+
+header,footer{
+	background-color:grey;
+	padding:4px;
+}
+
+header{
+	margin-bottom:5px;
+}
+
+header nav{
+	float:right;
+}
+#headerLines{
+	display:inline-block;
+}
+
+#headerP{
+	font-weight:bolder;
+	color:#0033cc;
+	font-size:19px;
+}
+.container{
+	margin:10px;
+	padding:5px;
+	border:2px solid black;
+	border-radius:3px;
+}
+
+.bodyCore{
+	border:1px dotted black;
+	padding:10px;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+.bordered-image{
+	border:2px solid black;
+	margin:2px;
+}
+
+.contact-form{
+	border:3px solid black;
+	margin:5px;
+	padding:10px;
+}
+.contact-form label{
+	font-weight:bold;
+}
+
+
+.contact-form input[type=text],
+.contact-form select,
+.contact-form input[type=password],
+.simple-form textarea {
+  width: 150px;
+}
+
+.contact-form input[type=submit] {
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  padding: 3px;
+  margin-top: 5px;
+}

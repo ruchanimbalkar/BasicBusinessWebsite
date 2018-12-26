@@ -1,0 +1,45 @@
+/*site.css*/
+
+body{
+	
+	margin: 0 auto;
+}
+
+header,footer{
+	background-color:grey;
+	padding:4px;
+}
+
+header{
+	margin-bottom:5px;
+}
+
+header nav{
+	float:right;
+}
+#headerLines{
+	display:inline-block;
+}
+
+#headerP{
+	font-weight:bolder;
+	color:#0033cc;
+	font-size:19px;
+}
+.container{
+	margin:10px;
+	padding:5px;
+	border:2px solid black;
+	border-radius:3px;
+}
+
+.bodyCore{
+	border:1px dotted black;
+	padding:10px;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+.bordered-image{
+	border:2px solid black;
+	margin:2px;
+}
