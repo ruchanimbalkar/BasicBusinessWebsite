@@ -16,6 +16,12 @@ header{
 
 header nav{
 	float:right;
+	margin-right: 5px;
+}
+
+header nav li {
+  display: inline;
+  font-size: 12px;
 }
 #headerLines{
 	display:inline-block;
@@ -32,7 +38,10 @@ header nav{
 	border:2px solid black;
 	border-radius:3px;
 }
-
+p{
+	font-weight:bold;
+	color:#3399ff;
+}
 .bodyCore{
 	border:1px dotted black;
 	padding:10px;
@@ -41,5 +50,10 @@ header nav{
 }
 .bordered-image{
 	border:2px solid black;
-	margin:2px;
+	margin:4px 2px 0px 2px;
+}
+
+footer p{
+	margin:5px;
+	font-weight:bolder;
 }
