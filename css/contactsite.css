@@ -37,8 +37,11 @@ header nav li {
 .container{
 	margin:10px;
 	padding:5px;
-	border:2px solid black;
+	border:2px;
+	border-style:solid;
+	border-color:black;
 	border-radius:3px;
+	text-align:center;
 }
 p{
 	font-weight:bold;
@@ -56,14 +59,12 @@ p{
 	
 }
 
-#tableHours{
-	margin:2px;
-	
-}
-
 table{
+	
+	margin:2px;
 	width:200px;
 	padding:4px;
+	display:inline-block;
 }
 table tr td{
 	font-weight:bold;
