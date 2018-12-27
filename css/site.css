@@ -7,7 +7,7 @@ body{
 
 header,footer{
 	background-color:grey;
-	padding:4px;
+	padding:30px;
 }
 
 header{
@@ -21,8 +21,9 @@ header nav{
 
 header nav li {
   display: inline;
-  font-size: 12px;
+  font-size: 18px;
 }
+
 #headerLines{
 	display:inline-block;
 }
@@ -44,7 +45,7 @@ p{
 }
 .bodyCore{
 	border:1px dotted black;
-	padding:10px;
+	padding:40px;
 	margin-top:8px;
 	margin-bottom:8px;
 }
