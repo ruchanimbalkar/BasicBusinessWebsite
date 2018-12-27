@@ -61,10 +61,10 @@ p{
 
 table{
 	
-	margin:2px;
+	margin: 0 auto;
 	width:200px;
 	padding:4px;
-	display:inline-block;
+	
 }
 table tr td{
 	font-weight:bold;
