@@ -1,4 +1,4 @@
-/*site.css*/
+/*contactsite.css*/
 
 body{
 	
@@ -34,10 +34,12 @@ header nav li {
 	color:#0033cc;
 	font-size:19px;
 }
+
 .container{
+	display:block;
 	margin:10px;
 	padding:5px;
-	border:2px;
+	border-width:2px;
 	border-style:solid;
 	border-color:black;
 	border-radius:3px;
@@ -66,43 +68,10 @@ table{
 	padding:4px;
 	
 }
+
 table tr td{
 	font-weight:bold;
 	
-}
-.contact-form{
-	
-	margin:5px;
-	padding:5px;
-	width: 200px;
-  display: inline-block;
-  vertical-align: top;
-}
-.contact-form label{
-	font-weight:bold;
-}
-
-
-.contact-form input[type=text],
-.contact-form select,
-.contact-form input[type=password],
- {
-  width: 150px;
-}
-
-.contact-form textarea
-{
-	width: 180px;
-	height:50px;
-	overflow: auto;
-}
-.contact-form input[type=submit] {
-  background-color: green;
-  color: white;
-  border-radius: 15px;
-  padding: 3px;
-  margin-top: 5px;
-  float:right;
 }
 
 footer p{
